@@ -83,6 +83,8 @@ class EchoScan(EchoTask):
                         # extract the echo profile 
                         while True:
                             profile_img = self.interaction.screenshot_region(0.7356, 0.1264, 0.952, 0.458)
+                            # 显示图像
+                            #profile_img.show()
                             profile = EchoProfile().from_image(profile_img)
 
                             if profile.validate():

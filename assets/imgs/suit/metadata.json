@@ -1,82 +1,114 @@
 [
     {
-        "name": "流云逝尽之空",
-        "file": "1.png"
+        "name": "听唤语义之愿",
+        "image": "T_IconElementAttriWindVision.png"
     },
     {
-        "name": "愿戴荣光之旅",
-        "file": "2.png"
+        "name": "斑驳粉饰之沫",
+        "image": "T_IconElementAttriFireA2.png"
     },
     {
-        "name": "高天共奏之曲",
-        "file": "3.png"
+        "name": "长路启航之星",
+        "image": "T_IconElementAttriFireA1.png"
     },
     {
-        "name": "凌冽决断之心",
-        "file": "4.png"
+        "name": "流金溯真之式",
+        "image": "T_IconElementAttriAttackWeakness.png"
     },
     {
-        "name": "此间永驻之光",
-        "file": "5.png"
+        "name": "星构寻辉之环",
+        "image": "T_IconElementAttriCureWeakness.png"
     },
     {
-        "name": "幽夜隐匿之帷",
-        "file": "6.png"
+        "name": "逆光跃彩之约",
+        "image": "T_IconElementAttriLightWeakness.png"
     },
     {
-        "name": "熔山裂谷",
-        "file": "7.png"
+        "name": "命理崩毁之弦",
+        "image": "T_IconElementAttriQianXiao.png"
     },
     {
-        "name": "沉日劫明",
-        "file": "8.png"
-    },
-    {
-        "name": "彻空冥雷",
-        "file": "9.png"
-    },
-    {
-        "name": "奔狼燎原之焰",
-        "file": "10.png"
-    },
-    {
-        "name": "啸谷长风",
-        "file": "11.png"
-    },
-    {
-        "name": "无惧浪涛之勇",
-        "file": "12.png"
-    },
-    {
-        "name": "浮星祛暗",
-        "file": "13.png"
-    },
-    {
-        "name": "轻云出月",
-        "file": "14.png"
-    },
-    {
-        "name": "隐世回光",
-        "file": "15.png"
-    },
-    {
-        "name": "凝夜白霜",
-        "file": "16.png"
-    },
-    {
-        "name": "不绝余音",
-        "file": "17.png"
-    },
-    {
-        "name": "失序彼岸之梦",
-        "file": "18.png"
+        "name": "焚羽猎魔之影",
+        "image": "T_IconElementAttriFireA.png"
     },
     {
         "name": "息界同调之律",
-        "file": "19.png"
+        "image": "T_IconElementAttriSupport.png"
     },
     {
         "name": "荣斗铸锋之冠",
-        "file": "20.png"
+        "image": "T_IconElementAttriShield.png"
+    },
+    {
+        "name": "失序彼岸之梦",
+        "image": "T_IconElementAttriDarkVision.png"
+    },
+    {
+        "name": "奔狼燎原之焰",
+        "image": "T_IconElementAttriFireUltimateSkill.png"
+    },
+    {
+        "name": "愿戴荣光之旅",
+        "image": "T_IconElementAttriWindErrorA.png"
+    },
+    {
+        "name": "流云逝尽之空",
+        "image": "T_IconElementAttriWindError.png"
+    },
+    {
+        "name": "无惧浪涛之勇",
+        "image": "T_IconElementAttriEnergy.png"
+    },
+    {
+        "name": "高天共奏之曲",
+        "image": "T_IconElementAttriCooperate.png"
+    },
+    {
+        "name": "幽夜隐匿之帷",
+        "image": "T_IconElementAttriDarkAssist.png"
+    },
+    {
+        "name": "此间永驻之光",
+        "image": "T_IconElementAttriLightError.png"
+    },
+    {
+        "name": "凌冽决断之心",
+        "image": "T_IconElementAttriIceUltimateSkill.png"
+    },
+    {
+        "name": "不绝余音",
+        "image": "T_IconElementAttriAttack.png"
+    },
+    {
+        "name": "轻云出月",
+        "image": "T_IconElementAttriCloud.png"
+    },
+    {
+        "name": "隐世回光",
+        "image": "T_IconElementAttriCure.png"
+    },
+    {
+        "name": "沉日劫明",
+        "image": "T_IconElementAttriDark.png"
+    },
+    {
+        "name": "浮星祛暗",
+        "image": "T_IconElementAttriLight.png"
+    },
+    {
+        "name": "啸谷长风",
+        "image": "T_IconElementAttriWind.png"
+    },
+    {
+        "name": "彻空冥雷",
+        "image": "T_IconElementAttriThunder.png"
+    },
+    {
+        "name": "熔山裂谷",
+        "image": "T_IconElementAttriFire.png"
+    },
+    {
+        "name": "凝夜白霜",
+        "image": "T_IconElementAttriIce.png"
     }
 ]

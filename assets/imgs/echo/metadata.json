@@ -1,594 +1,730 @@
 [
     {
+        "name": "辛吉勒姆",
+        "file": "T_IconMonsterHead_34025_UI.png"
+    },
+    {
+        "name": "共鸣回响·鸣式·利维亚坦",
+        "file": "T_IconMonsterHead_34020_1_UI.png"
+    },
+    {
         "name": "梦魇·赫卡忒",
-        "image": "42d292ee128d5dfebc1f891c8bf02f53.png"
+        "file": "T_IconMonsterHead_34016_UI.png"
     },
     {
         "name": "共鸣回响·芙露德莉斯",
-        "image": "86c5691787715736ba9e2baffee877e9.png"
+        "file": "T_IconMonsterHead_34012_1_UI.png"
     },
     {
         "name": "芙露德莉斯",
-        "image": "cb7d7d31c3f055a591c94edad7d6e7e1.png"
+        "file": "T_IconMonsterHead_34012_UI.png"
     },
     {
         "name": "赫卡忒",
-        "image": "8fc227d195645af8b4b063f4a953d6f5.png"
+        "file": "T_IconMonsterHead_34010_1_UI.png"
     },
     {
         "name": "角",
-        "image": "da339ddb7ee455729eac95af0f64fa66.png"
+        "file": "T_IconMonsterHead_327_UI.png"
     },
     {
         "name": "无妄者",
-        "image": "6705f6de85ee5ad9bb7c545d42979336.png"
+        "file": "T_IconMonsterHead_998_UI.png"
     },
     {
-        "name": "伤痕",
-        "image": "b6ea8d0786505e4ca8e1474860aefdd7.png"
+        "name": "伤痕·异生梦魇",
+        "file": "T_IconMonsterHead_990_UI.png"
     },
     {
         "name": "鸣钟之龟",
-        "image": "3734ee85bc2b5e11bcf2ec7b23a2f6e8.png"
+        "file": "T_IconMonsterHead_992_UI.png"
+    },
+    {
+        "name": "无铭探索者",
+        "file": "T_IconMonsterHead_34026_UI.png"
+    },
+    {
+        "name": "炉芯机骸",
+        "file": "T_IconMonsterHead_34022_UI.png"
+    },
+    {
+        "name": "海维夏",
+        "file": "T_IconMonsterHead_34021_UI.png"
     },
     {
         "name": "海之女",
-        "image": "8a09441f9aff5eaa926d77c14ce763b5.png"
+        "file": "T_IconMonsterHead_34018_UI.png"
+    },
+    {
+        "name": "共鸣回响·芬莱克",
+        "file": "T_IconMonsterHead_34015_2_UI.png"
     },
     {
         "name": "伪作的神王",
-        "image": "0b0ab9e4e30c59a9951ed1b5a255456c.png"
+        "file": "T_IconMonsterHead_34017_UI.png"
     },
     {
         "name": "芬莱克",
-        "image": "196034d3560a5f66866c8e4d643380c0.png"
+        "file": "T_IconMonsterHead_34015_UI.png"
     },
     {
         "name": "荣耀狮像",
-        "image": "0441fc8472f45ac6838a1e6b1ccc82e0.png"
+        "file": "T_IconMonsterHead_33022_UI.png"
     },
     {
         "name": "叹息古龙",
-        "image": "9e7b54c3876958c9ad379356482cda50.png"
+        "file": "T_IconMonsterHead_33013_UI.png"
     },
     {
         "name": "异构武装",
-        "image": "c1a76a7d8a3e5c4eba19df64e23094de.png"
+        "file": "T_IconMonsterHead_33012_UI.png"
     },
     {
         "name": "罗蕾莱",
-        "image": "e3652d1520765be7aa828392fff6b31b.png"
+        "file": "T_IconMonsterHead_33011_UI.png"
     },
     {
         "name": "无归的谬误",
-        "image": "c79e84b5ce0b5512a4186b78908400c2.png"
+        "file": "T_IconMonsterHead_350_UI.png"
     },
     {
         "name": "云闪之鳞",
-        "image": "aefb6944694b50a2aa5d3e4c9dd24178.png"
+        "file": "T_IconMonsterHead_226_UI.png"
     },
     {
         "name": "聚械机偶",
-        "image": "f4910dbf923752229ed944af27ea93e0.png"
+        "file": "T_IconMonsterHead_993_UI.png"
     },
     {
         "name": "哀声鸷",
-        "image": "55867cbdb49e5208b6563de6b9369b53.png"
+        "file": "T_IconMonsterHead_997_UI.png"
     },
     {
         "name": "飞廉之猩",
-        "image": "fcf1c6751a0c58489a3e0814cf881970.png"
+        "file": "T_IconMonsterHead_996_UI.png"
     },
     {
         "name": "辉萤军势",
-        "image": "294bea7f06305604a2b24017283cb158.png"
+        "file": "T_IconMonsterHead_994_UI.png"
     },
     {
         "name": "无常凶鹭",
-        "image": "bb1cbf6820d059e59735ec47f8890aef.png"
+        "file": "T_IconMonsterHead_995_UI.png"
     },
     {
         "name": "燎照之骑",
-        "image": "a1a9deb683c4588cb5c0e3966be99e00.png"
+        "file": "T_IconMonsterHead_325_UI.png"
     },
     {
         "name": "无冠者",
-        "image": "7bc48d4bf0c150829ac2c7e250374399.png"
+        "file": "T_IconMonsterHead_999_UI.png"
     },
     {
         "name": "朔雷之鳞",
-        "image": "3cc4f3c485375f3eb9982166de947a6a.png"
+        "file": "T_IconMonsterHead_225_UI.png"
+    },
+    {
+        "name": "格洛犸图",
+        "file": "T_IconMonsterHead_32061_UI.png"
+    },
+    {
+        "name": "共鸣回响·冠顶苍隼",
+        "file": "T_IconMonsterHead_32060_UI.png"
+    },
+    {
+        "name": "冠顶械隼",
+        "file": "T_IconMonsterHead_32059_UI.png"
+    },
+    {
+        "name": "锯袭铁影",
+        "file": "T_IconMonsterHead_32055_UI.png"
+    },
+    {
+        "name": "探隧重机",
+        "file": "T_IconMonsterHead_32054_UI.png"
+    },
+    {
+        "name": "重工铁蹄",
+        "file": "T_IconMonsterHead_32053_UI.png"
+    },
+    {
+        "name": "矿岩机麋",
+        "file": "T_IconMonsterHead_32052_UI.png"
+    },
+    {
+        "name": "莳植机麋",
+        "file": "T_IconMonsterHead_32051_UI.png"
+    },
+    {
+        "name": "风鳞蜃甲",
+        "file": "T_IconMonsterHead_32058_UI.png"
+    },
+    {
+        "name": "霜鳞蜃甲",
+        "file": "T_IconMonsterHead_32057_UI.png"
+    },
+    {
+        "name": "隐迹铁影",
+        "file": "T_IconMonsterHead_32056_UI.png"
+    },
+    {
+        "name": "双极·渊陨重锋",
+        "file": "T_IconMonsterHead_32050_UI.png"
+    },
+    {
+        "name": "双极·星升辉铳",
+        "file": "T_IconMonsterHead_32049_UI.png"
+    },
+    {
+        "name": "梦魇·刺玫菇",
+        "file": "T_IconMonsterHead_32048_UI.png"
+    },
+    {
+        "name": "梦魇·绿熔蜥",
+        "file": "T_IconMonsterHead_32047_UI.png"
     },
     {
         "name": "梦魇·青羽鹭",
-        "image": "710a548b3a1e51a0a23a64bbb99f9d28.png"
+        "file": "T_IconMonsterHead_32046_UI.png"
     },
     {
         "name": "梦魇·紫羽鹭",
-        "image": "8d414e0c4f675368b583860a2ceab1a1.png"
+        "file": "T_IconMonsterHead_32045_UI.png"
     },
     {
         "name": "蚀脊龙",
-        "image": "73eea84115eb5eec824eab9ff03bdec6.png"
+        "file": "T_IconMonsterHead_32044_UI.png"
     },
     {
         "name": "梦魇·振铎乐师",
-        "image": "112a74f48cf95ccd8d862f3c0b04d8c5.png"
+        "file": "T_IconMonsterHead_32043_UI.png"
     },
     {
         "name": "裁夺者",
-        "image": "36d94179687350a79ba8b2812c88c54b.png"
+        "file": "T_IconMonsterHead_32042_UI.png"
     },
     {
         "name": "冥冠角斗家",
-        "image": "4d878fdd42d85f54ab12ac644e5dbe74.png"
+        "file": "T_IconMonsterHead_32041_UI.png"
     },
     {
         "name": "雷冠角斗家",
-        "image": "9eda028f5cf5590489f6942beadc5ba5.png"
+        "file": "T_IconMonsterHead_32040_UI.png"
     },
     {
         "name": "凛冠角斗家",
-        "image": "2d672693d7c256a2901362d543281ca3.png"
+        "file": "T_IconMonsterHead_32039_UI.png"
     },
     {
         "name": "耀冠角斗家",
-        "image": "11bc3455725351b690751e8f698dc642.png"
+        "file": "T_IconMonsterHead_32038_UI.png"
     },
     {
         "name": "羽冠角斗家",
-        "image": "d6e0aca2969f5771af41c7bca17689f5.png"
+        "file": "T_IconMonsterHead_32037_UI.png"
     },
     {
         "name": "炽冠角斗家",
-        "image": "698c3ab1e38455658de0dc970df3248e.png"
+        "file": "T_IconMonsterHead_32036_UI.png"
     },
     {
         "name": "梦魇·凯尔匹",
-        "image": "e98a9bcc99ac5672ac31c5034f8cb674.png"
+        "file": "T_IconMonsterHead_33021_UI.png"
     },
     {
         "name": "传道者的遗形",
-        "image": "c2eac85cd3835df582cfebed4b9c6a43.png"
+        "file": "T_IconMonsterHead_32034_UI.png"
     },
     {
         "name": "角鳄",
-        "image": "6cfac666cced5839b45882dff40ab52e.png"
+        "file": "T_IconMonsterHead_31062_UI.png"
     },
     {
         "name": "梦魇·辉萤军势",
-        "image": "de4c25adf3265929b7ac5e2c52f77edb.png"
+        "file": "T_IconMonsterHead_34013_UI.png"
     },
     {
         "name": "荣光节使",
-        "image": "dbc985e768eb5c07954813a3067a4cee.png"
+        "file": "T_IconMonsterHead_32033_UI.png"
     },
     {
         "name": "飓力熊",
-        "image": "063f0f78f6d958e3929a3fa6b091922a.png"
+        "file": "T_IconMonsterHead_32032_UI.png"
     },
     {
         "name": "重塑雕像的拳砾",
-        "image": "5649ceedfa3b5ea0a6a739286d62630b.png"
+        "file": "T_IconMonsterHead_32031_UI.png"
     },
     {
         "name": "梦魇·哀声鸷",
-        "image": "9fe4ee9527995e2aa1d368b17c7637e9.png"
+        "file": "T_IconMonsterHead_YZ_33020_UI.png"
     },
     {
         "name": "梦魇·燎照之骑",
-        "image": "1251927a00b85a448df684507bdd7131.png"
+        "file": "T_IconMonsterHead_YZ_33019_UI.png"
     },
     {
         "name": "梦魇·无冠者",
-        "image": "50628798057e52ed8b88ab611b93feaa.png"
+        "file": "T_IconMonsterHead_YZ_33018_UI.png"
     },
     {
         "name": "梦魇·朔雷之鳞",
-        "image": "69e1c01f5aed5e93976fa6e89154862f.png"
+        "file": "T_IconMonsterHead_YZ_33017_UI.png"
     },
     {
         "name": "梦魇·云闪之鳞",
-        "image": "d576b38285ba53f5afe68e8569c22a19.png"
+        "file": "T_IconMonsterHead_YZ_33016_UI.png"
     },
     {
         "name": "梦魇·无常凶鹭",
-        "image": "7fdf7fbfccb250babc095f4a9bf6c929.png"
+        "file": "T_IconMonsterHead_YZ_33015_UI.png"
     },
     {
         "name": "梦魇·飞廉之猩",
-        "image": "c18662d6c1b45751ab6011893a94ca4e.png"
+        "file": "T_IconMonsterHead_YZ_33014_UI.png"
     },
     {
         "name": "巨布偶",
-        "image": "7ab225e261ec58d094811f3d08b41f50.png"
+        "file": "T_IconMonsterHead_32030_UI.png"
     },
     {
         "name": "琉璃刀伶",
-        "image": "b41efc3828d2524e808b02d9550ada11.png"
+        "file": "T_IconMonsterHead_32029_UI.png"
     },
     {
         "name": "浮灵偶",
-        "image": "4a265bed7845519abdb5b5f46f29cda3.png"
+        "file": "T_IconMonsterHead_32028_UI.png"
     },
     {
         "name": "凝水贵族",
-        "image": "f6db0525b7b75135b2d8e29ebf211a70.png"
+        "file": "T_IconMonsterHead_32027_UI.png"
     },
     {
         "name": "持刃贵族",
-        "image": "449e8774a3c651529ef4fb92ecf64fc4.png"
+        "file": "T_IconMonsterHead_32026_UI.png"
     },
     {
         "name": "毒冠贵族",
-        "image": "a40cf991860b5616b159f29f4d2b35a8.png"
+        "file": "T_IconMonsterHead_32025_UI.png"
     },
     {
         "name": "暗夜骑士",
-        "image": "77f4a836e39254d4923d10306c3c6b68.png"
+        "file": "T_IconMonsterHead_32024_UI.png"
     },
     {
         "name": "幻昼骑士",
-        "image": "1bb6adf4ac47567294ecb89bc4613fc2.png"
+        "file": "T_IconMonsterHead_32023_UI.png"
     },
     {
         "name": "巡游骑士",
-        "image": "aeea5b3c8b8f5b8b944e09c8333cbd12.png"
+        "file": "T_IconMonsterHead_32022_UI.png"
     },
     {
         "name": "踏光兽",
-        "image": "907a9421b35e53dc9df163785a648994.png"
+        "file": "T_IconMonsterHead_328_UI.png"
     },
     {
         "name": "游鳞机枢",
-        "image": "20b6d52e8c68512a8ce6ccb0436d2044.png"
+        "file": "T_IconMonsterHead_329_UI.png"
     },
     {
         "name": "雪鬃狼",
-        "image": "d2c950399fbe53f6ba3da850470c5b70.png"
+        "file": "T_IconMonsterHead_985_UI.png"
     },
     {
         "name": "巡哨机傀",
-        "image": "45b6d36f3139515288e691783183dad7.png"
+        "file": "T_IconMonsterHead_1003_UI.png"
     },
     {
         "name": "躁乱戏猿",
-        "image": "9f5b2fd3d8d65e4aab665a0bb48acc3c.png"
+        "file": "T_IconMonsterHead_1005_UI.png"
     },
     {
         "name": "处刑人",
-        "image": "a0fa7d01e3325445b3b1137c1dcc4c13.png"
+        "file": "T_IconMonsterHead_975_UI.png"
     },
     {
         "name": "流放者工匠",
-        "image": "8312fffbcaf958b680eaca77ded8c774.png"
+        "file": "T_IconMonsterHead_978_UI.png"
     },
     {
         "name": "流放者首领",
-        "image": "4caa489b9adf5f55b9d5cd3aa0c19382.png"
+        "file": "T_IconMonsterHead_979_UI.png"
     },
     {
         "name": "车刃镰",
-        "image": "6da550cac5925c4da8a927245a02ff83.png"
+        "file": "T_IconMonsterHead_970_UI.png"
     },
     {
         "name": "箭簇熊",
-        "image": "48116df0794e5916895c5eb78c702411.png"
+        "file": "T_IconMonsterHead_986_UI.png"
     },
     {
         "name": "嚣风戏猿",
-        "image": "9ccf13be90d35a64a8555c2a369e4df0.png"
+        "file": "T_IconMonsterHead_989_UI.png"
     },
     {
         "name": "暗鬃狼",
-        "image": "cbad8d4669da5462b298ff9003164b38.png"
+        "file": "T_IconMonsterHead_984_UI.png"
     },
     {
         "name": "刺玫菇",
-        "image": "a649d7067f905a7db668112362b58431.png"
+        "file": "T_IconMonsterHead_315_UI.png"
     },
     {
         "name": "绿熔蜥",
-        "image": "4be83d65e6085add9086ded77055111e.png"
+        "file": "T_IconMonsterHead_295_UI.png"
     },
     {
         "name": "冥渊守卫",
-        "image": "291ba2844e8c52dcbb08632079243148.png"
+        "file": "T_IconMonsterHead_215_UI.png"
     },
     {
         "name": "磐石守卫",
-        "image": "6c4f8afdd5fa57ac959be7022a8cc982.png"
+        "file": "T_IconMonsterHead_245_UI.png"
     },
     {
         "name": "振铎乐师",
-        "image": "933f55d7e26059fc9dbb73352ad75eac.png"
+        "file": "T_IconMonsterHead_205_UI.png"
     },
     {
         "name": "奏谕乐师",
-        "image": "d05f9f84195c512eaa323ca7a12f9834.png"
+        "file": "T_IconMonsterHead_195_UI.png"
     },
     {
         "name": "青羽鹭",
-        "image": "e1f0011ba39b5fdc98924e6036f8e44a.png"
+        "file": "T_IconMonsterHead_135_UI.png"
     },
     {
         "name": "紫羽鹭",
-        "image": "dbebfe4263dc5bcb97fa223b84d6f03b.png"
+        "file": "T_IconMonsterHead_125_UI.png"
     },
     {
         "name": "坚岩斗士",
-        "image": "44452b606c9d5fb9ae94628c0febdf72.png"
+        "file": "T_IconMonsterHead_185_UI.png"
+    },
+    {
+        "name": "影烁者",
+        "file": "T_IconMonsterHead_31084_UI.png"
+    },
+    {
+        "name": "冰盈舞者",
+        "file": "T_IconMonsterHead_31083_UI.png"
+    },
+    {
+        "name": "雷杖流民",
+        "file": "T_IconMonsterHead_31081_UI.png"
+    },
+    {
+        "name": "执刃流民",
+        "file": "T_IconMonsterHead_31080_UI.png"
+    },
+    {
+        "name": "噼啪啪",
+        "file": "T_IconMonsterHead_31082_UI.png"
+    },
+    {
+        "name": "岩蛛S4型",
+        "file": "T_IconMonsterHead_31079_UI.png"
+    },
+    {
+        "name": "矿岩熊蜂",
+        "file": "T_IconMonsterHead_31078_UI.png"
+    },
+    {
+        "name": "莳植熊蜂",
+        "file": "T_IconMonsterHead_31077_UI.png"
+    },
+    {
+        "name": "颤栗战士",
+        "file": "T_IconMonsterHead_31074_UI.png"
+    },
+    {
+        "name": "梦魇·侏侏鸵",
+        "file": "T_IconMonsterHead_31076_UI.png"
+    },
+    {
+        "name": "梦魇·呜咔咔",
+        "file": "T_IconMonsterHead_31075_UI.png"
+    },
+    {
+        "name": "梦魇·刺玫菇（稚形）",
+        "file": "T_IconMonsterHead_31073_UI.png"
+    },
+    {
+        "name": "梦魇·绿熔蜥（稚形）",
+        "file": "T_IconMonsterHead_31072_UI.png"
     },
     {
         "name": "梦魇·啾啾河豚",
-        "image": "2a50a70fac3d556fa209c1dca385eb65.png"
+        "file": "T_IconMonsterHead_31068_UI.png"
     },
     {
         "name": "梦魇·咕咕河豚",
-        "image": "deacb5be814e50a3ad91ea76a3271905.png"
+        "file": "T_IconMonsterHead_31067_UI.png"
     },
     {
         "name": "梦魇·巡徊猎手",
-        "image": "0a8b623aabd05783bf5381d052f94713.png"
+        "file": "T_IconMonsterHead_31066_UI.png"
     },
     {
         "name": "梦魇·惊蛰猎手",
-        "image": "f0d8f2c962dd54fdadff96514967b422.png"
+        "file": "T_IconMonsterHead_31065_UI.png"
     },
     {
         "name": "梦魇·破霜猎手",
-        "image": "4eff3bb72b4853a799790bc88f01a73e.png"
+        "file": "T_IconMonsterHead_31064_UI.png"
     },
     {
         "name": "梦魇·审判战士",
-        "image": "6ddb849e06eb56f9bc80da03de556438.png"
+        "file": "T_IconMonsterHead_31063_UI.png"
     },
     {
         "name": "残星·深海造匠",
-        "image": "f505559b97685ceaacb7c5647558a9f5.png"
+        "file": "T_IconMonsterHead_32035_UI.png"
     },
     {
         "name": "苦信者的作俑",
-        "image": "5677442b72b2502eabce6707094b389b.png"
+        "file": "T_IconMonsterHead_31061_UI.png"
     },
     {
         "name": "小翼龙·湮灭",
-        "image": "3a4fc5e75bbe53c69c49cdfa4592c89c.png"
+        "file": "T_IconMonsterHead_31060_UI.png"
     },
     {
         "name": "小翼龙·衍射",
-        "image": "d63636a5d071511e9883630ee425b0a6.png"
+        "file": "T_IconMonsterHead_31059_UI.png"
     },
     {
         "name": "小翼龙·热熔",
-        "image": "80c7d845a4c458b28356e366a0686e2d.png"
+        "file": "T_IconMonsterHead_31058_UI.png"
     },
     {
         "name": "小翼龙·冷凝",
-        "image": "6ea40b453dc659b39d2ef3cd9bdcf117.png"
+        "file": "T_IconMonsterHead_31057_UI.png"
     },
     {
         "name": "小翼龙·导电",
-        "image": "e6e931fd7cb45fb8a45dd663b15c54fa.png"
+        "file": "T_IconMonsterHead_31056_UI.png"
     },
     {
         "name": "小翼龙·气动",
-        "image": "d2f92f571f9c5c259ad5b446474dd6bd.png"
+        "file": "T_IconMonsterHead_31055_UI.png"
     },
     {
         "name": "慈悲节使",
-        "image": "51712a4aa9bb59fb83ce649c86eef964.png"
+        "file": "T_IconMonsterHead_31054_UI.png"
     },
     {
         "name": "赦罪节使",
-        "image": "0124df7e90f15ddbb0f889daed19dead.png"
+        "file": "T_IconMonsterHead_31053_UI.png"
     },
     {
         "name": "卫冕节使",
-        "image": "62cf2ab95c7a5659a8a5d99d6ef34c51.png"
+        "file": "T_IconMonsterHead_31052_UI.png"
     },
     {
         "name": "气动棱镜",
-        "image": "6c8ac10368015311b2281f4baba6fc99.png"
+        "file": "T_IconMonsterHead_31051_UI.png"
     },
     {
         "name": "釉变幼岩",
-        "image": "b23e3627f6b05b889a454da1a1886c56.png"
+        "file": "T_IconMonsterHead_31050_UI.png"
     },
     {
         "name": "愚金幼岩",
-        "image": "956d071eae705b9c9c5e7908e4c3ddec.png"
+        "file": "T_IconMonsterHead_31049_UI.png"
     },
     {
         "name": "欺诈奇藏",
-        "image": "b79a489a82e1551481e372a855ad1817.png"
+        "file": "T_IconMonsterHead_31048_UI.png"
     },
     {
         "name": "工头布偶",
-        "image": "e9ca21c94d5056e8977af218287496d0.png"
+        "file": "T_IconMonsterHead_31047_UI.png"
     },
     {
         "name": "寂寞小姐",
-        "image": "02246ac503bf50b081492cf260e59607.png"
+        "file": "T_IconMonsterHead_31046_UI.png"
     },
     {
         "name": "魔术先生",
-        "image": "d4cf51a9ab825fc6823599ae3bc7a2af.png"
+        "file": "T_IconMonsterHead_31045_UI.png"
     },
     {
         "name": "云海妖精",
-        "image": "39964b24b5005abe8d9d3f7807f911f9.png"
+        "file": "T_IconMonsterHead_31044_UI.png"
     },
     {
         "name": "幽翎火",
-        "image": "3ab2361db2175a079899fdcfdd313625.png"
+        "file": "T_IconMonsterHead_31043_UI.png"
     },
     {
         "name": "浮灵偶·莱特",
-        "image": "57455c588b9f59cbb83ed07f8ae5022c.png"
+        "file": "T_IconMonsterHead_31042_UI.png"
     },
     {
         "name": "浮灵偶·蕾弗",
-        "image": "b69c7ebbe42b5d9da39f263402c89835.png"
+        "file": "T_IconMonsterHead_31041_UI.png"
     },
     {
         "name": "浮灵偶·海德",
-        "image": "f71432ec26875374858f746ebcb96eed.png"
+        "file": "T_IconMonsterHead_31040_UI.png"
     },
     {
         "name": "霜鬃狼",
-        "image": "af729e5764dd5ed283acafd487115629.png"
+        "file": "T_IconMonsterHead_31039_UI.png"
     },
     {
         "name": "雷鬃狼",
-        "image": "cfd64b6bf5005b29a708b11a174802a9.png"
+        "file": "T_IconMonsterHead_31038_UI.png"
     },
     {
         "name": "风鬃狼",
-        "image": "9589ddcb8ff25442a9290293b5873f42.png"
+        "file": "T_IconMonsterHead_31037_UI.png"
     },
     {
         "name": "侏侏鸵",
-        "image": "bf149ebd3d705b46b251bf32295c6cc1.png"
+        "file": "T_IconMonsterHead_330_UI.png"
     },
     {
         "name": "融火虫",
-        "image": "fc08b62886ed57b9a5e09f4ff74491a8.png"
+        "file": "T_IconMonsterHead_326_UI.png"
     },
     {
         "name": "叮咚咚",
-        "image": "1c54d20879845166a4c529e4f0d49b99.png"
+        "file": "T_IconMonsterHead_1001_UI.png"
     },
     {
         "name": "通行灯偶",
-        "image": "3b0302c97696589a82492ed7d51134b7.png"
+        "file": "T_IconMonsterHead_1000_UI.png"
     },
     {
         "name": "残星·枪肢造匠",
-        "image": "98d227e76ed056dd8fdf34cc7287551e.png"
+        "file": "T_IconMonsterHead_973_UI.png"
     },
     {
         "name": "残星·枭面造匠",
-        "image": "21927466616256b79976391fcc68ce8a.png"
+        "file": "T_IconMonsterHead_974_UI.png"
     },
     {
         "name": "锐爪幼猿",
-        "image": "3f2c9f98c5dc5493b248ad0bc19c929a.png"
+        "file": "T_IconMonsterHead_1002_UI.png"
     },
     {
         "name": "残星·重锤造匠",
-        "image": "6ed88772a0955e21b41b71e4a1f1586f.png"
+        "file": "T_IconMonsterHead_972_UI.png"
     },
     {
         "name": "火鬃狼",
-        "image": "aad134a095935cf3a0b110b695ba497d.png"
+        "file": "T_IconMonsterHead_980_UI.png"
     },
     {
         "name": "寒霜陆龟",
-        "image": "8390362b909d5d25be2692cdb3874b9c.png"
+        "file": "T_IconMonsterHead_969_UI.png"
     },
     {
         "name": "晶螯蝎",
-        "image": "7bbf2b96a84a5ecd99fbd658aad7a3d1.png"
+        "file": "T_IconMonsterHead_987_UI.png"
     },
     {
         "name": "抛石幼猿",
-        "image": "57160c233b77521d94027818d2c9874f.png"
+        "file": "T_IconMonsterHead_988_UI.png"
     },
     {
         "name": "流放者",
-        "image": "307f7a09be315a84bea2b339ecdd1ce8.png"
+        "file": "T_IconMonsterHead_976_UI.png"
     },
     {
         "name": "流放者",
-        "image": "307f7a09be315a84bea2b339ecdd1ce8.png"
+        "file": "T_IconMonsterHead_977_UI.png"
     },
     {
         "name": "刺玫菇（稚形）",
-        "image": "69d58b29547c5a29835aad2817af9102.png"
+        "file": "T_IconMonsterHead_305_UI.png"
     },
     {
         "name": "绿熔蜥（稚形）",
-        "image": "8004265d207351b7b78dd79a130bbdbb.png"
+        "file": "T_IconMonsterHead_285_UI.png"
     },
     {
         "name": "遁地鼠",
-        "image": "1b47e063a17d5bc183ec6b12d3f2c0ed.png"
+        "file": "T_IconMonsterHead_275_UI.png"
     },
     {
         "name": "碎獠猪",
-        "image": "60a5f8c0638f5b39a99f4ef8507a0077.png"
+        "file": "T_IconMonsterHead_265_UI.png"
     },
     {
         "name": "游弋蝶",
-        "image": "0e4984c4454b52768a7bd7c61aa8d988.png"
+        "file": "T_IconMonsterHead_255_UI.png"
     },
     {
         "name": "湮灭棱镜",
-        "image": "602ba4fec73e57fe83f101239cb5f117.png"
+        "file": "T_IconMonsterHead_175_UI.png"
     },
     {
         "name": "衍射棱镜",
-        "image": "38e0405c3af558be891cf5e9f8648c3a.png"
+        "file": "T_IconMonsterHead_165_UI.png"
     },
     {
         "name": "热熔棱镜",
-        "image": "3280a506079f5f1b976b6bda664ebb0b.png"
+        "file": "T_IconMonsterHead_155_UI.png"
     },
     {
         "name": "冷凝棱镜",
-        "image": "ad875effbffe5749863091e44650daee.png"
+        "file": "T_IconMonsterHead_145_UI.png"
     },
     {
         "name": "啾啾河豚",
-        "image": "b1c5dc36055051dc8f960fbcecbac678.png"
+        "file": "T_IconMonsterHead_971_UI.png"
     },
     {
         "name": "咕咕河豚",
-        "image": "76c72cb42cf7568397c7e7b320b031a3.png"
+        "file": "T_IconMonsterHead_115_UI.png"
     },
     {
         "name": "呜咔咔",
-        "image": "5685a0b53ab753fe93dc00295637a88e.png"
+        "file": "T_IconMonsterHead_095_UI.png"
     },
     {
         "name": "呼咻咻",
-        "image": "04633ecac8705383aebba07791338e1d.png"
+        "file": "T_IconMonsterHead_085_UI.png"
     },
     {
         "name": "阿嗞嗞",
-        "image": "4fe1a4e33be355a187014a1d1c402e7c.png"
+        "file": "T_IconMonsterHead_075_UI.png"
     },
     {
         "name": "咔嚓嚓",
-        "image": "b4faf2ca5a625944941af28769d93e4e.png"
+        "file": "T_IconMonsterHead_065_UI.png"
     },
     {
         "name": "审判战士",
-        "image": "80d8fac2551856598ba6b3c2f43c70f4.png"
+        "file": "T_IconMonsterHead_055_UI.png"
     },
     {
         "name": "鸣泣战士",
-        "image": "e27e6135d17658b5a1350c3897184cd5.png"
+        "file": "T_IconMonsterHead_045_UI.png"
     },
     {
         "name": "巡徊猎手",
-        "image": "8978c00c424d575ba8d2f193898012c2.png"
+        "file": "T_IconMonsterHead_235_UI.png"
     },
     {
         "name": "破霜猎手",
-        "image": "b5164ba2ecae50c3a4536331b7aee823.png"
+        "file": "T_IconMonsterHead_105_UI.png"
     },
     {
         "name": "惊蛰猎手",
-        "image": "b7dee1d7e33f5727a962336cb96cfd0b.png"
+        "file": "T_IconMonsterHead_035_UI.png"
     },
     {
         "name": "裂变幼岩",
-        "image": "fbdfa81f646054babf85d63be1d4eaa0.png"
+        "file": "T_IconMonsterHead_025_UI.png"
     },
     {
         "name": "先锋幼岩",
-        "image": "bfedcddc44865b74839e83b782cfa919.png"
+        "file": "T_IconMonsterHead_015_UI.png"
     }
 ]

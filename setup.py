@@ -1,6 +1,7 @@
 from setuptools import setup, Extension
 import sys
 import os
+sys.path.append("C:\\Users\\jie\\miniconda3\\envs\\ww-toolbox\\Lib\\site-packages")
 import pybind11
 
 with open("requirements.txt") as f:

@@ -4,39 +4,161 @@ Default:
     cri_dmg: 0.9
     resonance_eff: 0.5
 
+Luuk:
+  name: "陆·赫斯"
+  dmg_source: "atk"
+  coef: 
+    resonance_burst: 0.60
+    resonance_eff: 1
+
+Aemeath:
+  name: "爱弥斯"
+  dmg_source: "atk"
+  coef: 
+    cri_rate: 2
+    cri_dmg: 1
+    atk_rate: 1.1
+    atk_num: 0.12
+    resonance_eff: 0.2
+    resonance_burst: 0.77
+
+Monin:
+  name: "莫宁"
+  dmg_source: "def"
+  coef: 
+    def_num: 0.1
+    def_rate: 1.25
+    resonance_eff: 1.3
+    cri_rate: 0.1
+    cri_dmg: 0.3
+    resonance_burst: 0.44
+
+Lynae:
+  name: "琳奈"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.05
+    resonance_eff: 0.2
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.792
+    resonance_burst: 0.253
+
+Chisa:
+  name: "千咲"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.250
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_burst: 0.605
+
+Galbrena:
+  name: "嘉贝莉娜"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.200
+    cri_rate: 2
+    cri_dmg: 1
+    charged_atk: 0.418
+
+Iuno:
+  name: "尤诺"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.200
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_burst: 0.715
+
+Augusta:
+  name: "奥古斯塔"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.200
+    cri_rate: 2
+    cri_dmg: 1
+    charged_atk: 0.832
+
+Phrolova:
+  name: "弗洛洛"
+  dmg_source: "atk"
+  coef: 
+    atk_num: 0.1
+    atk_rate: 1.1
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.737
+    resonance_eff: 0
+
 Cartethyia:
   name: "卡提希娅"
   dmg_source: "hp"
   coef: 
-    resonance_burst: 0.19
-    normal_dmg: 0.66
+    hp_num: 0.01
+    hp_rate: 1.1
+    resonance_eff: 0.1
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.704
+    resonance_burst: 0.308
 
 Lupa:
   name: "露帕"
   dmg_source: "atk"
   coef:
-    resonance_burst: 0.64
-    resonance_skill: 0.18
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.2
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.231
+    resonance_burst: 0.737
 
 Ciaccona:
   name: "夏空"
   dmg_source: "atk"
   coef:
-    resonance_eff: 1
-    charged_atk: 0.23
-    resonance_burst: 0.47
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.3
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.506
+    charged_atk: 0.363
+    resonance_burst: 0.627
 
 Zani:
   name: "赞妮"
   dmg_source: "atk"
   coef:
-    charged_atk: 0.76
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.3
+    cri_rate: 2
+    cri_dmg: 1
+    charged_atk: 0.715
+    resonance_burst: 0.154
 
 Cantarella:
   name: "坎特蕾拉"
   dmg_source: "atk"
   coef:
-    normal_dmg: 0.79
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.5
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.660
 
 Brant:
   name: "布兰特"
@@ -46,6 +168,20 @@ Brant:
     normal_dmg: 0.62 
     atk_rate: 0.5 
     atk_num: 0.05
+
+Phoebe:
+  name: "菲比"
+  dmg_source: "atk"
+  coef:
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.1
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.088
+    charged_atk: 0.660
+    resonance_skill: 0.055
+    resonance_burst: 0.187
 
 Roccia:
   name: "洛可可"
@@ -57,7 +193,12 @@ Carlotta:
   name: "珂莱塔"
   dmg_source: "atk"
   coef:
-    resonance_skill: 0.75
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.200
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.910
 
 Camellya:
   name: "椿"
@@ -94,15 +235,25 @@ Changli:
   name: "长离"
   dmg_source: "atk"
   coef:
-    resonance_burst: 0.27
-    resonance_skill: 0.59
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.3
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.660
+    resonance_burst: 0.440
 
 Jinhsi:
   name: "今汐"
   dmg_source: "atk"
   coef:
-    resonance_burst: 0.20
-    resonance_skill: 0.72
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.250
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.715
+    resonance_burst: 0.330
 
 Yinlin:
   name: "吟霖"
@@ -136,7 +287,14 @@ Encore:
   name: "安可"
   dmg_source: "atk"
   coef:
-    normal_dmg: 0.59
+    atk_num: 0.12
+    atk_rate: 1.1
+    resonance_eff: 0.3
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.660
+    resonance_skill: 0.275
+    resonance_burst: 0.220
 
 Verina:
   name: "维里奈"
@@ -190,8 +348,14 @@ Chixia:
   name: "炽霞"
   dmg_source: "atk"
   coef:
-    resonance_burst: 0.35
-    resonance_skill: 0.46
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.5
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.165
+    resonance_skill: 0.550
+    resonance_burst: 0.440
 
 Sanhua:
   name: "散华"
@@ -239,22 +403,41 @@ Taoqi:
     resonance_burst: 0.50
     resonance_skill: 0.38
 
-Phrolova:
-  name: "弗洛洛"
+RoverSpectro:
+  name: "漂泊者·衍射"
   dmg_source: "atk"
-  coef: 
-    resonance_skill: 0.40
-    resonance_eff: 0
+  coef:
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.25
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.165
+    charged_atk: 0.165
+    resonance_skill: 0.660
+    resonance_burst: 0.220
 
-Augusta:
-  name: "奥古斯塔"
+RoverHavoc:
+  name: "漂泊者·湮灭"
   dmg_source: "atk"
-  coef: 
-    charged_atk: 0.73
+  coef:
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.5
+    cri_rate: 2
+    cri_dmg: 1
+    normal_dmg: 0.275
+    resonance_skill: 0.220
+    resonance_burst: 0.605
 
-Iuno:
-  name: "尤诺"
+RoverAero:
+  name: "漂泊者·气动"
   dmg_source: "atk"
-  coef: 
-    resonance_burst: 0.60
-    resonance_eff: 1
+  coef:
+    atk_num: 0.1
+    atk_rate: 1.1
+    resonance_eff: 0.2
+    cri_rate: 2
+    cri_dmg: 1
+    resonance_skill: 0.840
+    resonance_burst: 0.216

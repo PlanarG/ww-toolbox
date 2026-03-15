@@ -222,7 +222,7 @@ def detect_and_merge_rectangles_pil(
     iou_threshold=0.25,
     num_perturbations=50,
     brightness_threshold=100,
-    bright_area_ratio_threshold=0.2,
+    bright_area_ratio_threshold=0.35,
     debug=False
 ) -> list[tuple[int, int, int, int]]:
     """
@@ -448,7 +448,8 @@ if __name__ == "__main__":
     img = Image.open("tests/test-level.png")
     print(ocr(img, split=""))
     print(ocr_pattern(img, "\d+"))
-
+    img = Image.open("tests/test-rare.png")
+    print(ocr(img))
     # --- Rectangle detection tests ---
     print("\n--- Testing detect_and_merge_rectangles_pil ---")
     try:

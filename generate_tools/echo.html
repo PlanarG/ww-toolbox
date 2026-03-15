@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>声骸套装解析器 · 生成JSON</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+        body {
+            background: #1e1e2f;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            max-width: 1300px;
+            width: 100%;
+            background: #2d2d3f;
+            border-radius: 28px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            padding: 28px;
+            color: #eaeef2;
+            border: 1px solid #4a4a6a;
+        }
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 500;
+            margin: 0 0 8px 0;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h1 small {
+            font-size: 0.9rem;
+            color: #a9b7c6;
+            font-weight: 400;
+            background: #3a3a52;
+            padding: 4px 12px;
+            border-radius: 30px;
+        }
+        .description {
+            color: #bdc3d0;
+            margin-bottom: 28px;
+            border-left: 4px solid #7f6bc2;
+            padding-left: 18px;
+            background: #262635;
+            border-radius: 0 12px 12px 0;
+            line-height: 1.5;
+            font-size: 0.95rem;
+        }
+        .flex-row {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .panel {
+            flex: 1 1 400px;
+            background: #252536;
+            border-radius: 22px;
+            padding: 22px;
+            border: 1px solid #3f3f5a;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
+        }
+        .panel h2 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #cfd7e6;
+            border-bottom: 1px dashed #5a5a7a;
+            padding-bottom: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 320px;
+            background: #1c1c28;
+            border: 1px solid #555575;
+            border-radius: 18px;
+            padding: 18px;
+            color: #f0f4fa;
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            resize: vertical;
+            outline: none;
+            transition: 0.2s;
+            box-shadow: inset 0 4px 10px rgba(0,0,0,0.8);
+        }
+        textarea:focus {
+            border-color: #9d8be8;
+            box-shadow: 0 0 0 2px #4a3f8e, inset 0 2px 8px #000;
+        }
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 22px 0 10px;
+        }
+        button {
+            background: #3b3355;
+            border: none;
+            border-radius: 40px;
+            padding: 12px 28px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #e8ecf5;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid #6d5c9e;
+            box-shadow: 0 6px 0 #1b172b;
+        }
+        button:hover {
+            background: #52467a;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 0 #1b172b;
+        }
+        button:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px 0 #1b172b;
+        }
+        .copy-btn {
+            background: #2f4b5c;
+            border-color: #5e8a9c;
+            box-shadow: 0 6px 0 #1a2f3a;
+        }
+        .copy-btn:hover {
+            background: #3d6277;
+        }
+        .output-area {
+            background: #1c1c28;
+            border-radius: 18px;
+            padding: 8px;
+            border: 1px solid #555575;
+            margin-top: 10px;
+        }
+        pre, .json-output {
+            background: #15151e;
+            border-radius: 14px;
+            padding: 18px;
+            color: #c9d9f0;
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            font-size: 13px;
+            overflow: auto;
+            max-height: 360px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border: 1px solid #3d3d5c;
+            margin: 0;
+        }
+        .json-output {
+            width: 100%;
+            height: auto;
+            min-height: 200px;
+            resize: vertical;
+            outline: none;
+            background: #15151e;
+            color: #b4c8f0;
+        }
+        .stats {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            color: #a8b5d0;
+            background: #2a2a3c;
+            padding: 10px 18px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+        .error-msg {
+            color: #ffad9e;
+            background: #4e2e3a;
+            padding: 12px 18px;
+            border-radius: 40px;
+            border-left: 6px solid #ff5f56;
+            margin-top: 16px;
+            font-weight: 400;
+        }
+        .example-img {
+            opacity: 0.6;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>
+        📦 声骸 · 套装解析器 
+        <small>原生JS · 多套装合并</small>
+    </h1>
+    <div class="description">
+        ⚡ 粘贴包含 <code>.item</code> 结构的HTML，自动提取每个声骸的 <strong>名称</strong>、<strong>Cost</strong> 及所属 <strong>套装</strong>。<br>
+        🧩 同名声骸的套装自动合并为数组，Cost 以首次出现为准（若不一致会提示）。<br>
+        💡 下方已预置示例数据，可直接点击【解析】测试。
+        数据来源 https://mc.appfeng.com/echo
+    </div>
+
+    <div class="flex-row">
+        <!-- 左侧输入区域 -->
+        <div class="panel">
+            <h2>📋 原始HTML</h2>
+            <textarea id="htmlInput" placeholder="将包含 .item 的HTML代码粘贴到这里..."></textarea>
+            <div class="button-group">
+                <button id="parseBtn">🔍 解析生成JSON</button>
+                <button id="fillExampleBtn">📋 填充示例</button>
+                <button id="clearBtn">🗑️ 清空输入</button>
+            </div>
+            <div class="stats" id="inputStats">等待解析…</div>
+        </div>
+
+        <!-- 右侧输出区域 -->
+        <div class="panel">
+            <h2>📦 JSON 结果</h2>
+            <div class="output-area">
+                <textarea id="jsonOutput" class="json-output" readonly wrap="off" placeholder="解析后的JSON会显示在这里..." spellcheck="false"></textarea>
+            </div>
+            <div class="button-group">
+                <button id="copyBtn" class="copy-btn">📋 复制JSON</button>
+                <button id="downloadBtn">⬇️ 下载 .json</button>
+            </div>
+            <div id="outputStats" class="stats">共 0 个声骸</div>
+        </div>
+    </div>
+    <div id="errorMessage" class="error-msg" style="display: none;"></div>
+</div>
+
+<script>
+(function() {
+    // DOM 元素
+    const htmlInput = document.getElementById('htmlInput');
+    const jsonOutput = document.getElementById('jsonOutput');
+    const parseBtn = document.getElementById('parseBtn');
+    const fillExampleBtn = document.getElementById('fillExampleBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const errorMsgDiv = document.getElementById('errorMessage');
+    const inputStats = document.getElementById('inputStats');
+    const outputStats = document.getElementById('outputStats');
+
+    // 示例HTML (与需求中一致)
+    const EXAMPLE_HTML = `<div class="item" style="border: 1px solid rgba(255, 255, 255, 0); color: rgb(255, 255, 255);"><div class="title flexCenter"><img src="/ui/icon/T_IconElementAttriQianXiao.png" style="transform: none;"> 命理崩毁之弦</div><div class="des"><div class="tz"><p><span>3件：</span>角色为敌人添加【虚湮效应】时，自身攻击提升20%，共鸣解放伤害加成提升30%，持续5秒。</p></div></div><div class="sh little"><div class="avatar"><ul><li class="s4"><a href="/monster/340000201" class=""><div class="cost">Cost 4</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_34020_1_UI.png"></div><div class="name"><span>共鸣回响·鸣式·利维亚坦</span></div><div class="combatType" icon="T_IconElementWind1_UI"><img src="/ui/icon/T_IconElementWind1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----><li class="s2"><a href="/monster/320000480" class=""><div class="cost">Cost 3</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_32048_UI.png"></div><div class="name"><span>梦魇·刺玫菇</span></div><div class="combatType" icon="T_IconElementDark1_UI"><img src="/ui/icon/T_IconElementDark1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----><li class="s2"><a href="/monster/320000260" class=""><div class="cost">Cost 3</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_32026_UI.png"></div><div class="name"><span>持刃贵族</span></div><div class="combatType" icon="T_IconElementIce1_UI"><img src="/ui/icon/T_IconElementIce1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----><li class="s1"><a href="/monster/310000760" class=""><div class="cost">Cost 1</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_31076_UI.png"></div><div class="name"><span>梦魇·侏侏鸵</span></div><div class="combatType" icon="T_IconElementZero1_UI"><img src="/ui/icon/T_IconElementZero1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----><li class="s1"><a href="/monster/310000750" class=""><div class="cost">Cost 1</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_31075_UI.png"></div><div class="name"><span>梦魇·呜咔咔</span></div><div class="combatType" icon="T_IconElementDark1_UI"><img src="/ui/icon/T_IconElementDark1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----><li class="s1"><a href="/monster/310000600" class=""><div class="cost">Cost 1</div><div class="head"><img src="/ui/monster/T_IconMonsterHead_31060_UI.png"></div><div class="name"><span>小翼龙·湮灭</span></div><div class="combatType" icon="T_IconElementDark1_UI"><img src="/ui/icon/T_IconElementDark1_UI.png" style="left: 0em;"></div></a></li><!----><!----><!----></ul></div></div></div>`;
+
+    // 清空错误显示
+    function setError(msg) {
+        if (msg) {
+            errorMsgDiv.style.display = 'block';
+            errorMsgDiv.innerText = '❌ ' + msg;
+        } else {
+            errorMsgDiv.style.display = 'none';
+            errorMsgDiv.innerText = '';
+        }
+    }
+
+    // 解析HTML并生成结果对象
+    function parseHtmlToJson(htmlString) {
+        if (!htmlString || htmlString.trim() === '') {
+            throw new Error('HTML内容为空，请输入内容后再解析。');
+        }
+
+        // 创建一个容器解析HTML
+        const container = document.createElement('div');
+        container.innerHTML = htmlString;
+
+        // 找到所有 .item
+        const items = container.querySelectorAll('.item');
+        if (items.length === 0) {
+            throw new Error('未找到任何 class="item" 的容器，请检查HTML结构。');
+        }
+
+        const result = {};          // 最终输出对象
+        const costWarning = [];     // 记录cost不一致的条目
+
+        // 遍历每一个套装区块
+        items.forEach((item, index) => {
+            // 提取套装名：.title.flexCenter 内的纯文本（去掉图标干扰）
+            const titleEl = item.querySelector('.title.flexCenter');
+            if (!titleEl) {
+                console.warn(`第 ${index+1} 个 .item 缺少 .title.flexCenter，跳过该套装。`);
+                return; // 跳过没有标题的item
+            }
+            let suitName = titleEl.textContent.trim();
+            if (suitName === '') {
+                // 如果只有图标没有文字，尝试手动提取文本节点
+                const childText = Array.from(titleEl.childNodes)
+                    .filter(node => node.nodeType === Node.TEXT_NODE)
+                    .map(node => node.textContent)
+                    .join('').trim();
+                suitName = childText || '未知套装';
+            }
+
+            // 找到这个item下所有声骸li (位于 .avatar ul li)
+            // 注意：有些li可能被注释包裹，但querySelectorAll会跳过注释，只取元素li
+            const monsterLi = item.querySelectorAll('.avatar ul li');
+            if (monsterLi.length === 0) {
+                console.warn(`套装“${suitName}”中没有找到任何声骸li，跳过。`);
+                return;
+            }
+
+            // 遍历每个li提取怪物名和cost
+            monsterLi.forEach(li => {
+                // 获取cost元素
+                const costDiv = li.querySelector('.cost');
+                if (!costDiv) return; // 没有cost则跳过
+                const costText = costDiv.textContent.trim();
+                const costMatch = costText.match(/\d+/);
+                if (!costMatch) return; // 没找到数字则跳过
+                const costNum = parseInt(costMatch[0], 10);
+
+                // 获取名称：优先 .name span，否则 .name 的文本
+                const nameSpan = li.querySelector('.name span');
+                let name = '';
+                if (nameSpan) {
+                    name = nameSpan.textContent.trim();
+                } else {
+                    const nameDiv = li.querySelector('.name');
+                    if (nameDiv) {
+                        name = nameDiv.textContent.trim();
+                    }
+                }
+                if (name === '') return; // 没有名称跳过
+
+                // 检查结果中是否已存在该怪物
+                if (result.hasOwnProperty(name)) {
+                    // 已存在: 检查cost是否一致
+                    const existing = result[name];
+                    if (existing.cost !== costNum) {
+                        costWarning.push(`声骸“${name}”出现cost不一致：已有cost ${existing.cost}，新cost ${costNum}（套装：${suitName}）`);
+                        // 不更新cost，保留第一次
+                    }
+                    // 添加套装 (去重)
+                    if (!existing.suit.includes(suitName)) {
+                        existing.suit.push(suitName);
+                    }
+                } else {
+                    // 不存在: 创建新条目
+                    result[name] = {
+                        cost: costNum,
+                        suit: [suitName]
+                    };
+                }
+            });
+        });
+
+        // 如果有cost警告，显示在界面
+        if (costWarning.length > 0) {
+            setError('检测到cost不一致:\n' + costWarning.join('\n'));
+        } else {
+            setError(null);
+        }
+
+        return result;
+    }
+
+    // 更新界面：显示解析结果
+    function updateDisplay(result) {
+        if (!result || Object.keys(result).length === 0) {
+            jsonOutput.value = '{}';
+            outputStats.innerText = '共 0 个声骸';
+            return;
+        }
+        // 美化输出 缩进4空格
+        const prettyJson = JSON.stringify(result, null, 4);
+        jsonOutput.value = prettyJson;
+        const count = Object.keys(result).length;
+        outputStats.innerText = `共 ${count} 个声骸`;
+    }
+
+    // 解析主流程
+    function parseAction() {
+        const rawHtml = htmlInput.value;
+        try {
+            const resultObj = parseHtmlToJson(rawHtml);
+            updateDisplay(resultObj);
+            inputStats.innerText = `HTML长度: ${rawHtml.length} 字符 | 解析完成`;
+        } catch (e) {
+            setError(e.message);
+            jsonOutput.value = '{}';
+            outputStats.innerText = '共 0 个声骸';
+            inputStats.innerText = `解析出错`;
+        }
+    }
+
+    // 填充示例
+    function fillExample() {
+        htmlInput.value = EXAMPLE_HTML;
+        setError(null);
+        inputStats.innerText = `示例已填充 (${EXAMPLE_HTML.length} 字符)`;
+        // 可选：自动解析
+        // parseAction();  // 如果想自动解析可以取消注释
+    }
+
+    // 清空输入
+    function clearInput() {
+        htmlInput.value = '';
+        setError(null);
+        inputStats.innerText = '已清空';
+        jsonOutput.value = '{}';
+        outputStats.innerText = '共 0 个声骸';
+    }
+
+    // 复制JSON到剪贴板
+    async function copyJson() {
+        const jsonText = jsonOutput.value;
+        if (!jsonText || jsonText === '{}') {
+            alert('没有可复制的JSON数据');
+            return;
+        }
+        try {
+            await navigator.clipboard.writeText(jsonText);
+            // 简单反馈
+            const originalText = copyBtn.innerText;
+            copyBtn.innerText = '✅ 已复制';
+            setTimeout(() => {
+                copyBtn.innerText = originalText;
+            }, 1500);
+        } catch (err) {
+            alert('复制失败，请手动选择复制');
+        }
+    }
+
+    // 下载JSON文件
+    function downloadJson() {
+        const jsonText = jsonOutput.value;
+        if (!jsonText || jsonText === '{}') {
+            alert('没有数据可下载');
+            return;
+        }
+        const blob = new Blob([jsonText], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'echoes_data.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    // 绑定事件
+    parseBtn.addEventListener('click', parseAction);
+    fillExampleBtn.addEventListener('click', fillExample);
+    clearBtn.addEventListener('click', clearInput);
+    copyBtn.addEventListener('click', copyJson);
+    downloadBtn.addEventListener('click', downloadJson);
+
+    // 初始化: 填入示例以便快速测试
+    fillExample();
+
+    // 可选：添加一个快捷解析示例的动作（让用户看到效果）
+    // 页面完全加载后自动解析一次，展示结果
+    window.addEventListener('load', function() {
+        // 小延迟确保UI完全渲染
+        setTimeout(() => {
+            parseAction();
+        }, 30);
+    });
+})();
+</script>
+</body>
+</html>

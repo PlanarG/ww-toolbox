@@ -26,7 +26,7 @@
 
 - Python (建议 `3.11` 及以上)
 - [Node.js](https://nodejs.org/en)，我们的前端基于 electron。
-- [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)，需要用其构建 C++ 接口加速计算。
+- [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)，需要用其构建 C++ 接口加速计算，需要勾选MSVC生成工具和Windows 11 SDK。
 
 ### 🎡 开始构建
 
@@ -50,6 +50,8 @@ pip install -r requirements.txt
 # 检查依赖安装情况并编译 C++ 接口
 pip install -e .
 ```
+如果报错找不到pybind11，请手动修复path变量或者在import pybind11之前增加
+sys.path.append("C:\\Users\\xxx\\miniconda3\\envs\\ww-toolbox\\Lib\\site-packages")
 
 接下来安装前端依赖并构建前端。
 
@@ -131,8 +133,17 @@ npm start .
 
 ## 📖 文档
 
-敬请期待。
+手动数据更新方式（安装版可以手动替换resources下相关目录） 
+assets\imgs下char、echo、suit文件夹执行 python fetch.py，自动更新图片 
+assets\characters.txt 更新新人物名称 
+assets\echo.json 通过 generate_tools/echo.html 通过填入数据库链接的网页内容生成，后续会更新更方便的方式 
+assets\suit.txt 手动更新套装名称，后续会更新更方便的方式。 
+assets\config\entry_coef.yml 修改人物初始词条比重，当前部分人物词条按照qq机器人守岸人提供的权重
 
+exe打包流程
+项目目录下
+pyinstaller main.spec 复制dist文件夹内内容到frontend/backend下
+frontend目录下 .\node_modules\.bin\electron-builder.cmd 打包app，最后安装包在dist目录下
 ## 📜 开源协议
 
 Wuthering Waves Toolbox 使用 MIT 协议开源。 请参考 [`LICENSE`](./LICENSE)。

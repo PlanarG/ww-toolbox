@@ -1,3 +1,9 @@
+陆·赫斯 Luuk
+爱弥斯 Aemeath
+莫宁 Monin
+琳奈 Lynae
+千咲 Chisa
+嘉贝莉娜 Galbrena
 尤诺 Iuno
 奥古斯塔 Augusta
 弗洛洛 Phrolova
@@ -34,3 +40,6 @@
 莫特斐 Mortefi
 渊武 Yuanwu
 桃祈 Taoqi
+漂泊者·衍射 RoverSpectro
+漂泊者·湮灭 RoverHavoc
+漂泊者·气动 RoverAero

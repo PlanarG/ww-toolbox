@@ -14,6 +14,7 @@ from toolbox.utils.logger import logger
 stat_file = get_config_dir() / "entry_stats.yml"
 coef_file = get_config_dir() / "entry_coef.yml"
 echo_file = get_assets_dir() / "echo.json"
+ocr_change_file = get_assets_dir() / "ocr_change_char.json"
 
 with open(stat_file, "r", encoding="utf-8") as f:
     stat_data = yaml.safe_load(f)
@@ -23,6 +24,12 @@ with open(coef_file, "r", encoding="utf-8") as f:
 
 with open(echo_file, "r", encoding="utf-8") as f:
     echo_data = json.load(f)
+
+with open(ocr_change_file, "r", encoding="utf-8") as f:
+    ocr_change_data = json.load(f)
+
+rare_chars = ocr_change_data["rare"]
+ignore_chars = ocr_change_data["ignore"]
 
 @dataclass
 class DiscardScheduler:
@@ -185,16 +192,17 @@ class EchoProfile:
     def from_image(self, image: Image.Image) -> "EchoProfile":
         text = ocr(image)
         lines_to_skip = 0
-        
+        line_count = 0
         for line in text.split("\n"):
+            line_count = line_count + 1
             line = line.strip()
 
-            logger.debug(f"line: {line}")
+            logger.warning(f"line: {line}")
 
             if "声骸技能" in line:
                 break
 
-            if "+" in line:
+            if "+" in line and line_count > 2:
                 level = self._extract_number(line)
                 if level is not None:
                     self.level = round(level)
@@ -206,8 +214,6 @@ class EchoProfile:
                 for name in echo_data.keys():
                     # create a regex pattern for the name to ignore rare characters 
                     # and match the line with the pattern
-                    rare_chars = ['魇', '螯', '獠', '鬃', '翎', '鸷', '鹭', '傀', '哨', '蜥', '磐', '铎', '镰', '簇', '湮', '釉', '蛰', '鳄', '飓', '芙']
-                    ignore_chars = ['·']
 
                     substituted_name = name
 

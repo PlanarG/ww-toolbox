@@ -1,172 +1,204 @@
 {
     "characters": [
         {
+            "name": "爱弥斯",
+            "file": "T_IconRoleHead256_53_UI.png"
+        },
+        {
+            "name": "陆·赫斯",
+            "file": "T_IconRoleHead256_54_UI.png"
+        },
+        {
+            "name": "莫宁",
+            "file": "T_IconRoleHead256_61_UI.png"
+        },
+        {
+            "name": "琳奈",
+            "file": "T_IconRoleHead256_60_UI.png"
+        },
+        {
+            "name": "千咲",
+            "file": "T_IconRoleHead256_57_UI.png"
+        },
+        {
+            "name": "卜灵",
+            "file": "T_IconRoleHead256_58_UI.png"
+        },
+        {
+            "name": "嘉贝莉娜",
+            "file": "T_IconRoleHead256_55_UI.png"
+        },
+        {
+            "name": "仇远",
+            "file": "T_IconRoleHead256_56_UI.png"
+        },
+        {
             "name": "奥古斯塔",
-            "file": "f5a16eb82dd658c8aa63742686241e49.png"
+            "file": "T_IconRoleHead256_51_UI.png"
         },
         {
             "name": "尤诺",
-            "file": "383da460b868537ea4732f8d97a8364e.png"
+            "file": "T_IconRoleHead256_48_UI.png"
         },
         {
             "name": "弗洛洛",
-            "file": "bbc6341aa50d5c0f866de08baaf1cab8.png"
+            "file": "T_IconRoleHead256_41_UI.png"
         },
         {
             "name": "卡提希娅",
-            "file": "998ddbfbc30155f28eb296e857f76ef8.png"
+            "file": "T_IconRoleHead256_40_UI.png"
         },
         {
             "name": "露帕",
-            "file": "b48df14a42185743aa32578d77f45bd2.png"
+            "file": "T_IconRoleHead256_46_UI.png"
         },
         {
             "name": "夏空",
-            "file": "65c6ba20a0415d0fbb6c416e993adb3a.png"
+            "file": "T_IconRoleHead256_37_UI.png"
         },
         {
             "name": "赞妮",
-            "file": "85d86de7b4b652c1b2b5f02483f83b44.png"
+            "file": "T_IconRoleHead256_38_UI.png"
         },
         {
             "name": "坎特蕾拉",
-            "file": "1e7aae63194450139a8befb5d8e3937c.png"
+            "file": "T_IconRoleHead256_34_UI.png"
         },
         {
             "name": "漂泊者·气动",
-            "file": "875c604feea45867a05d6c0b1f6c315c.png"
+            "file": "T_IconRoleHead256_4_UI.png"
         },
         {
             "name": "漂泊者·气动",
-            "file": "875c604feea45867a05d6c0b1f6c315c.png"
+            "file": "T_IconRoleHead256_5_UI.png"
         },
         {
             "name": "布兰特",
-            "file": "3dbb9d35575550938fec3ea8c6f77a03.png"
+            "file": "T_IconRoleHead256_44_UI.png"
         },
         {
             "name": "菲比",
-            "file": "f0429228b7c65db6820e3f29384bf059.png"
+            "file": "T_IconRoleHead256_45_UI.png"
         },
         {
             "name": "洛可可",
-            "file": "45c71bbfe6c750939035133dfa3ec228.png"
+            "file": "T_IconRoleHead256_33_UI.png"
         },
         {
             "name": "珂莱塔",
-            "file": "8bf09a771d4450cd8e0acb1fdbb94180.png"
+            "file": "T_IconRoleHead256_32_UI.png"
         },
         {
             "name": "椿",
-            "file": "bd908a57c8db56cfb19ef2dc4a95d297.png"
+            "file": "T_IconRoleHead256_29_UI.png"
         },
         {
             "name": "灯灯",
-            "file": "c516e06d74b05ca0880bd0971634690c.png"
+            "file": "T_IconRoleHead256_30_UI.png"
         },
         {
             "name": "守岸人",
-            "file": "40e9b29003de57ea96fb7dd40e9ce217.png"
+            "file": "T_IconRoleHead256_28_UI.png"
         },
         {
             "name": "釉瑚",
-            "file": "4dd881e822e4549a9fb48e1a58b65868.png"
+            "file": "T_IconRoleHead256_31_UI.png"
         },
         {
             "name": "折枝",
-            "file": "857bbb9e2da45b63921685b4df960694.png"
+            "file": "T_IconRoleHead256_27_UI.png"
         },
         {
             "name": "相里要",
-            "file": "f2d5b812b9fd50a8bfcb3d6050e56f98.png"
+            "file": "T_IconRoleHead256_25_UI.png"
         },
         {
             "name": "长离",
-            "file": "6b4c46e978f8599ca90c4287797ad5c4.png"
+            "file": "T_IconRoleHead256_26_UI.png"
         },
         {
             "name": "今汐",
-            "file": "4454842e9ec65a49afc1465309de014f.png"
+            "file": "T_IconRoleHead256_24_UI.png"
         },
         {
             "name": "吟霖",
-            "file": "d513903cea4c55488d22ab9bc3dcbd15.png"
+            "file": "T_IconRoleHead256_17_UI.png"
         },
         {
             "name": "忌炎",
-            "file": "03149527efd157a3ad2957c857790583.png"
+            "file": "T_IconRoleHead256_11_UI.png"
         },
         {
             "name": "鉴心",
-            "file": "d0d34777a2a257daa546bf78d3b9bb0c.png"
+            "file": "T_IconRoleHead256_23_UI.png"
         },
         {
             "name": "卡卡罗",
-            "file": "6a253fdf0a6954808d1b20ab084a4bac.png"
+            "file": "T_IconRoleHead256_18_UI.png"
         },
         {
             "name": "安可",
-            "file": "3b7712d8d6bc5e6fb15458c2c5d3dcc9.png"
+            "file": "T_IconRoleHead256_8_UI.png"
         },
         {
             "name": "维里奈",
-            "file": "2b7aa2ae49c05a5f8d24d62df7be8bb6.png"
+            "file": "T_IconRoleHead256_3_UI.png"
         },
         {
             "name": "凌阳",
-            "file": "91cdf01edafb50e58df5a6c2f2d881de.png"
+            "file": "T_IconRoleHead256_14_UI.png"
         },
         {
             "name": "漂泊者·衍射",
-            "file": "b06aa273bd535b99b4cff8c62cdb0710.png"
+            "file": "T_IconRoleHead256_4_UI.png"
         },
         {
             "name": "漂泊者·衍射",
-            "file": "b06aa273bd535b99b4cff8c62cdb0710.png"
+            "file": "T_IconRoleHead256_5_UI.png"
         },
         {
             "name": "漂泊者·湮灭",
-            "file": "10c26012c53f5a729866c39d1bb48172.png"
+            "file": "T_IconRoleHead256_4_UI.png"
         },
         {
             "name": "漂泊者·湮灭",
-            "file": "10c26012c53f5a729866c39d1bb48172.png"
+            "file": "T_IconRoleHead256_5_UI.png"
         },
         {
             "name": "秧秧",
-            "file": "4326fe9b6fef54808d2c91702b25e38f.png"
+            "file": "T_IconRoleHead256_1_UI.png"
         },
         {
             "name": "白芷",
-            "file": "fdebe848970b56edaa2a3efc0eb8c76e.png"
+            "file": "T_IconRoleHead256_6_UI.png"
         },
         {
             "name": "炽霞",
-            "file": "9d50d5bbf4605dd58fb8c9709a1c1768.png"
+            "file": "T_IconRoleHead256_2_UI.png"
         },
         {
             "name": "散华",
-            "file": "b5401bdc5e1657f6b72642531be269b5.png"
+            "file": "T_IconRoleHead256_7_UI.png"
         },
         {
             "name": "秋水",
-            "file": "1091b01efd615aedbdb22a0077afd608.png"
+            "file": "T_IconRoleHead256_12_UI.png"
         },
         {
             "name": "丹瑾",
-            "file": "62b28a084f265cff94ea0d62251ba6e3.png"
+            "file": "T_IconRoleHead256_10_UI.png"
         },
         {
             "name": "莫特斐",
-            "file": "b4a2b5f194695f96bb4c6f9c00f03643.png"
+            "file": "T_IconRoleHead256_13_UI.png"
         },
         {
             "name": "渊武",
-            "file": "42f3433eff215d5c92b4f7e83e15c597.png"
+            "file": "T_IconRoleHead256_15_UI.png"
         },
         {
             "name": "桃祈",
-            "file": "6c9685428ef159de8d3fce94ac10cfe4.png"
+            "file": "T_IconRoleHead256_9_UI.png"
         }
     ]
 }
